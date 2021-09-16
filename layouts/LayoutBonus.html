@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+  <title>Layout</title>
+  <style>
+    /* For credit, we created an animation
+      that changes the width and the 
+      height of the the div elements*/
+    @keyframes ani {
+      from {
+        width: 10px;
+        height: 10px;
+      }
+      to {
+        width: 250px;
+        height: 250px;
+      }
+    }
+
+    body {
+      width: 600px;
+    }
+
+    div {
+      display: block;
+      float: left;
+      animation-name: ani;
+      animation-duration: 5s;
+    }
+
+    .b1 {
+      background-color: red;
+    }
+
+    .b2 {
+      background-color: yellow;
+    }
+
+    .b3 {
+      background-color: blue;
+      color: white;
+    }
+
+    .b4 {
+      background-color: orange;
+    }
+
+    .b5 {
+      background-color: purple;
+      color: white;
+    }
+
+    .b6 {
+      background-color: darksalmon;
+    }
+  </style>
+</head>
+<html>
+  <body>
+    <div class="b1">b1</div>
+    <div class="b2">b2</div>
+    <div class="b3">b3</div>
+    <div class="b4">b4</div>
+    <div class="b5">b5</div>
+    <div class="b6">b6</div>
+    <a href="../landing.html">Homepage</a>
+  </body>
+</html>
